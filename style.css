@@ -1,0 +1,68 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-flex;
+  position: relative
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: lightblue;
+}
+
+.green{
+  background-color: green;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.cardback {
+  background-color: gray;
+}
+
+.hide {
+  display: none
+}
+
+body {
+  background-color: #036ffc;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Press Start 2P';
+  color: #fc035e;
+  text-shadow: 5px 5px 5px yellow;
+  font-size: 5rem;
+}
+
+#startbutton {
+  height: 100px;
+  width: 200px;
+  font-size: 2rem;
+  font-family: 'Press Start 2P';
+  background-color: gray;
+}
+
+#resetbutton {
+  height: 50px;
+  width: 100px;
+  font-size: 1rem;
+  font-family: 'Press Start 2P';
+  background-color: gray;
+}
+
+#buttons {
+  text-align: center;
+}

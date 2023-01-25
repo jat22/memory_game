@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Press+Start+2P&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <div id="buttons">
+      <button id="startbutton">START GAME</button>
+      <button id="resetbutton" class="hide">RESET</button>
+    </div>
+    <div id="timercontainer" class="hide">
+      <span>Time: </span>
+      <span id="timer"></span>
+    <div>
+      <span>Number of Guesses: </span>
+      <span id="guesscount"></span>
+    </div>
+    </div>
+    <div id="gameover"  class="hide">
+      <h2>GAME OVER</h2>
+      <span>Time:</span>
+      <span id="finaltime"></span>
+      <span>Number of Guesses: </span>
+      <span id="numberguesses"></span>
+      <button id="newgame">NEW GAME</button>
+    </div>
+    <div id="game">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
